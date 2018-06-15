@@ -7,7 +7,7 @@ import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import { devToolsEnhancer } from 'redux-devtools-extension'
 import App from './app'
-import reducer from 'reducers/todos'
+import reducer from 'reducers'
 
 const store = createStore(reducer, /* preloadedState, */ devToolsEnhancer(
   // Specify custom devTools options
