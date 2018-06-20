@@ -1,7 +1,7 @@
 import { SET_VISIBILITY_FILTER, SHOW_ALL } from './actions'
 
 
-export const initialState = 'SHOW_ALL'
+export const initialState = SHOW_ALL
 
 const visibilityFilter = (state = initialState, action) => {
     switch (action.type) {
